@@ -1,0 +1,86 @@
+@import './base.css';
+
+.ant-layout-header{
+    background: #bbb;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    background: #bbb;
+}
+.left-content{
+    display: flex;
+    align-items: center;    
+}
+
+.left-content a{
+    margin-right: 10px;
+}
+.right-content{
+    display: flex;
+    align-items: center;
+}
+.right-content button{
+    margin-left: 10px;
+    
+}
+.input-style{
+    margin-top: 10px;
+}
+.timeline-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.card-style{
+    margin-bottom: 20px;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.userbar-container{
+    /* display: flex; */
+    padding-bottom: 50px;
+}
+.bottom-content{
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+}
+.bottom-content h5{
+    margin: 0 !important;
+    padding: 0;
+    margin-right:30px !important;
+    align-items: center;
+} 
+.image-gallery-container{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.image-gallery-container img{
+    margin: 5px;
+    width: 200px;
+}
+.input-container{
+    height: 120px;
+}
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
